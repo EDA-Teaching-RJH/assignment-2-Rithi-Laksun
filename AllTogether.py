@@ -17,5 +17,5 @@ def remove_even_number(number_list, i_number):
     return result
   exit()
 
-init_random_num()
-print(remove_even_number(number_list,0))
+print("The random list: ", init_random_num())  #prints the original lists
+print("New list: ", remove_even_number(number_list,0))  #prints the new list without even numbers
